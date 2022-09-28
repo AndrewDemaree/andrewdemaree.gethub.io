@@ -1,0 +1,23 @@
+{% extends "table.html" %}
+
+{% block content %} 
+<style>
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   .resume {
+    height: 1000px;
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+</style>
+<div class = "resume">
+<img src="images/resumeone.jpg" alt="resume part 1">
+<img src="images/resumetwo.jpg" alt="resume part 2">
+</div>
+{% endblock content %}
